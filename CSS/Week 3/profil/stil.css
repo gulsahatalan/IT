@@ -1,0 +1,95 @@
+/*Yazi tipi ve baslik */
+
+h1{
+    font-family: fantasy ;font-weight:bolder; 
+    font-style:italic;color:rgb ( 7 , 93, 51)
+}
+legend{
+    font-weight: bold; font-style: unset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(191, 34, 16);
+    text-shadow: sienna;
+}
+blockquote{
+    font-size: 16px;
+    color: #34042f;
+    font-style: italic;
+}
+header{
+    
+    padding: 20px;
+background-color: rgb(96, 135, 213);
+border-radius: 70px;}
+
+article{ color: teal; text-shadow: yellow; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: unset;}
+ 
+
+/*table*/
+
+table{
+   
+      font-size: 12px;
+      width: 100%;;
+  }
+  
+caption{
+    font-weight: bolder;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px rgba(9, 50, 46, 0.891);
+    text-transform: capitalize;
+    font-style: oblique;
+    color: rgb(127, 13, 13);
+}
+tr:hover{
+    background: rgb(7, 220, 152);
+}
+td:nth-child(even){
+    background: rgb(220, 7, 156);
+    padding: 5px;
+    margin: 5px;
+}
+
+th{
+    background: #350e78;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+fieldset{
+    margin-top: 20px;
+}
+
+/*table*/
+
+main{
+    width: 600px;
+   
+   
+    margin: auto;}
+
+#content-container{
+    display: flex;
+    background-color: rgb(219, 163, 223);
+    border-radius: 20px;
+    
+}
+
+.left-side{
+  flex-grow: 1;
+}
+
+.right-side{
+    flex-grow: 4;
+}
+
+
+.profile-image{
+    max-width: 150px;
+}
+
+
+#my-name{ color: rgb(33, 24, 162);
+font-family: fantasy;}
+
+
+
