@@ -1,8 +1,8 @@
 /*Yazi tipi ve baslik */
 
 h1{
-    font-family: font-family: fantasy; ;font-weight: bolder; 
-    font-style: italic; color: rgb(7, 93, 51) ;
+    font-family: fantasy ;font-weight:bolder; 
+    font-style:italic;color:rgb ( 7 , 93, 51)
 }
 legend{
     font-weight: bold; font-style: unset;
@@ -22,9 +22,7 @@ background-color: rgb(96, 135, 213);
 border-radius: 70px;}
 
 article{ color: teal; text-shadow: yellow; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: unset;}
-
-
-    
+ 
 
 /*table*/
 
