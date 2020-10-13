@@ -1,0 +1,48 @@
+/*general style*/
+main { width: 40vw;height:auto} 
+#photo-part ,#account-part  {box-shadow: 12px; border-radius: 20px ;margin:6rem ;width: 25vw; }
+.privecy-part {box-shadow: 20px;padding: 10px;}
+.social-media {box-shadow: 20px;padding: 10px;}
+header {box-shadow: 12px;}
+.account-ikon {width: 3rem;height: auto;}
+.privecy-ikon {width: 3rem;height: auto;}
+.social-media img {width: 2rem;height: auto;}
+#social-media img {width: 15px;height: 15px;}
+
+#photo-part :nth-of-type(2) {width: 2rem;height: auto}
+div {width: 25vw;}
+header p {font-size: 50px}
+#photo-part :first-child {width: 8rem;height: auto}
+#photo-part :nth-of-type(2) {position: relative; top: -2rem;right: -3rem;}
+
+/*color style*/
+
+#white-big-part {background-color: whitesmoke;}
+body {background-color: darkgrey; border: black;}
+
+header {color: white; padding: 0px 30px;background-color: blue}
+
+#photo-part ,#account-part, .privecy-part {background-color: white;  }
+
+/*layout style*/
+
+body {display: flex;flex-direction: column; align-items: center}
+main {display :flex ; flex-direction: column; align-content: stretch;} 
+#white-big-part {display: flex;flex-direction: column ;}
+#account-part {display: flex;  flex-direction: column }
+#photo-part  {display: flex;  flex-direction: column ;align-items: center; }
+.privecy-part {display: flex; justify-content: space-between}
+
+header {display :flex ;justify-content: space-between;} 
+
+/*
+#social-media {display: flex;align-items: stretch ;justify-content: stretch;flex-wrap: nowrap;} 
+
+*/
+div {display: flex; flex-wrap: nowrap;justify-items: right;}
+div a {align-self: left; background-color: indigo;}
+
+li, ul{
+    list-style-type:none;
+    padding: 0;
+}
