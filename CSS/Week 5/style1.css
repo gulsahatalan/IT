@@ -1,0 +1,83 @@
+html, body, .grid-container { height: 80vh;  }
+
+body {background-color: gray;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.9fr 1.1fr 1fr;
+  width: 78vw;
+  height: 40vh;
+  background-color: whitesmoke;
+  align-items: center;
+  grid-template-areas:
+    "h-left h-left h-left h-middle h-middle h-middle h-right h-right h-right"
+    "h-left h-left h-left h-middle h-middle h-middle h-right h-right h-right"
+    "h-left h-left h-left h-middle h-middle h-middle h-right h-right h-right"
+    "figure figure figure section section section section section section"
+    "figure figure figure section section section section section section"
+    "figure figure figure section section section section section section"
+    "footer footer footer footer footer footer footer footer footer"
+    "footer footer footer footer footer footer footer footer footer";
+} 
+.h-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-areas:
+    ". . ."
+    ". . .";
+  grid-area: h-left;
+  justify-self: center;
+  font-size: x-large;
+  font-style: oblique;
+  margin-left: 5vw;
+  font-family: 'Pacifico', cursive;
+
+}
+.h-middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+  grid-area: h-middle;
+  height:3vh ;
+}
+.h-right { grid-area: h-right; 
+ justify-self: flex-end
+}
+.h-right img {width: 2vw;
+border-radius: 50%;}
+.section { grid-area: section; }
+.section img {width: 1rem;}
+.section>div {margin: 2vh 0vw;}
+.figure { grid-area: figure;
+  justify-self: center; }
+.figure img {width: 9vw;
+border-radius: 50%;}
+.footer { grid-area: footer; 
+justify-self: center;
+}
+.footer img {width: 1rem;}
+.inline {border-top:2px solid rgb(202, 200, 200);
+
+  margin-top: 50px;}
+.ikon-small {margin-left: 1vw}
+#f-ikon {margin-left:2vw}
+.section input {margin-left: 2vw;}
+div span {margin-right: 2vw;}
+#blue-text {color: blue;}
+.h-right :last-child {margin-right: 2vw;}
+hr{
+  border-top:2px solid rgb(202, 200, 200);
+  margin-right: 180px;
+  margin-left: 180px;
+    display: flex;
+  justify-content: center;
+}
